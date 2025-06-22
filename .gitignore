@@ -1,0 +1,68 @@
+# TCL Project .gitignore
+
+# Temporary files created by TCL scripts
+*.tmp
+*.temp
+temp_*
+test_*.txt
+*_test.txt
+*_test_*.txt
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Test data files
+test_data.txt
+test_input.txt
+test_output.txt
+test_config.conf
+test.log
+search_test.txt
+search_test.txt.bak
+
+# Temporary files from practical examples
+copy_of_*.txt
+temp_file.txt
+nonexistent.txt
+nonexistent_file.txt
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Compiled files (if any)
+*.o
+*.obj
+*.exe
+
+# Package files
+*.tar.gz
+*.zip
+
+# Environment files
+.env
+.env.local
+
+# Git files
+.git/
+.gitignore~
+
+# Documentation build files
+docs/_build/
